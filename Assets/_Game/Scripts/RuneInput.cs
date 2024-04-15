@@ -10,7 +10,8 @@ public class RuneInput : MonoBehaviour
     public UnityEvent OnRuneConjured = new UnityEvent();
     
     public string[] KeysPerKeyboard;
-    public string InputKeys;
+    public string DisplayInputKeys;
+    public string ActualInputKeys;
     public TextMeshPro KeyDisplay;
     
     public EnergySettings Settings;
@@ -40,10 +41,11 @@ public class RuneInput : MonoBehaviour
 
     public void InitKeyboard(int keyboardID)
     {
-        InputKeys = KeysPerKeyboard[keyboardID].ToUpper();
+        ActualInputKeys = KeysPerKeyboard[0].ToUpper();
+        DisplayInputKeys = KeysPerKeyboard[keyboardID].ToUpper();
         
         List<KeyCode> keyCodes = new List<KeyCode>();
-        foreach(char key in InputKeys)
+        foreach(char key in ActualInputKeys)
         {
             var parsedKeyCode = GetKeyCode(key);
             if (!keyCodes.Contains(parsedKeyCode))
@@ -173,15 +175,15 @@ public class RuneInput : MonoBehaviour
     void UpdateKeyDisplay()
     {
         string displayText = "";
-        for (int i = 0; i < InputKeys.Length; i++)
+        for (int i = 0; i < DisplayInputKeys.Length; i++)
         {
             if (_isKeyHeldDown[i])
             {
-                displayText += $"<color=green>{InputKeys[i]}</color> ";
+                displayText += $"<color=green>{DisplayInputKeys[i]}</color> ";
             }
             else
             {
-                displayText += $"{InputKeys[i]} ";
+                displayText += $"{DisplayInputKeys[i]} ";
             }
         }
         
