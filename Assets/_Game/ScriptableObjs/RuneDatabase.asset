@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44182b47dc7c14c07b80ff9852bdaa86, type: 3}
+  m_Name: RuneDatabase
+  m_EditorClassIdentifier: 
+  Database:
+  - Type: 0
+    IsRightRune: 0
+    Material: {fileID: 2100000, guid: fac85df1ccd8d4c78afc1de900a74456, type: 2}
+    GlowMaterial: {fileID: 2100000, guid: fac85df1ccd8d4c78afc1de900a74456, type: 2}
+  - Type: 1
+    IsRightRune: 0
+    Material: {fileID: 2100000, guid: e1ec3fae9a5cb4436a3e8a6c2142a5d5, type: 2}
+    GlowMaterial: {fileID: 2100000, guid: 97ae008d657804e15b9ea8bd2da1e895, type: 2}
+  - Type: 2
+    IsRightRune: 0
+    Material: {fileID: 2100000, guid: 04a7c7b5b970a4b0c98fbf50d35e53c6, type: 2}
+    GlowMaterial: {fileID: 2100000, guid: ab367e84e33154a1a97720e380172421, type: 2}
+  - Type: 3
+    IsRightRune: 0
+    Material: {fileID: 2100000, guid: 8dffcf69a86e04a968f2e74009da331e, type: 2}
+    GlowMaterial: {fileID: 2100000, guid: f04fdb1361bca4102b928f863adf2a16, type: 2}
+  - Type: 4
+    IsRightRune: 1
+    Material: {fileID: 2100000, guid: c7064b33a060741e59a21904bbb56681, type: 2}
+    GlowMaterial: {fileID: 2100000, guid: 8ce179ebf85ac4aa4997d1f79b2ac1d0, type: 2}
+  - Type: 5
+    IsRightRune: 1
+    Material: {fileID: 2100000, guid: a1566217153624c1ca11506c78251cb0, type: 2}
+    GlowMaterial: {fileID: 2100000, guid: ea4d127cd51494324ac9f3852f9d915c, type: 2}
+  - Type: 6
+    IsRightRune: 1
+    Material: {fileID: 2100000, guid: 415cb351e1d71437c9ea08f35a5e2272, type: 2}
+    GlowMaterial: {fileID: 2100000, guid: 375a6427b111b49f39db1ac6171ade00, type: 2}

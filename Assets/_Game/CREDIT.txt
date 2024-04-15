@@ -1,0 +1,17 @@
+Credit
+--------
+
+seansleblanc for the WebGL template:
+https://seansleblanc.itch.io/better-minimal-webgl-template
+
+ninjikin for the Antiquity Print font:
+https://ninjikin.itch.io/font-antiquity-script
+
+Epsilon_Delta on Unity Formums for this helpful TextMeshPro hyperlink script:
+https://forum.unity.com/threads/textmeshpro-hyperlinks.1091296/
+
+Vladar for Catholicon font:
+https://vladar.itch.io/catholicon
+
+unfilledflag for Nicer Nightie font:
+https://unfilledflag.itch.io/nicer-nightie

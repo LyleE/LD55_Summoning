@@ -1,0 +1,95 @@
+Hmm... QWERTY, AZERTY... QWERTZ... These magic incantations seem to carry meaning... The key to the spirit board perhaps?
+--
+[name=keyboard_prompt, no_next]A board-key? No.... perhaps a key-board...
+Which of these seems most familiar?
+
+1. <link="qwerty"><u>QWERTY</u></link>
+2. <link="azerty"><u>AZERTY</u></link>
+3. <link="qwertz"><u>QWERTZ</u></link>
+4. <link="misc_keyboard"><u>Something else...?</u></link>
+--
+[name=misc_keyboard, no_next]My apologies...
+This configuration is unknown to our sect.
+Please make do with what you can:
+
+1. <link="qwerty"><u>QWERTY</u></link>
+2. <link="azerty"><u>AZERTY</u></link>
+3. <link="qwertz"><u>QWERTZ</u></link>
+--
+[name=l1_intro]Bleagh.... Hmm...
+--
+Ack! My bloodsworn have failed to wake me from my meditations! If I don't complete tonight's ritual, our Dark Lord will turn His malevolent gaze upon us.
+--
+[open_eyes]But... there is still time... 2 minutes to midnight...
+I must make haste.
+--
+[top_layout]By divine fortune, tonight's spell is foolsplay -
+even my bloodsworn could complete it.
+--
+[name=rune_tutorial, no_next, top_layout]I must hold the astral runes in my mind's eye and join the left and right halves of runes. By <color=yellow>pressing each key repeatedly</color>, I should be able to progress through the spell.
+--
+[name=rune_tutorial_hint, no_next, top_layout]Ah yes, this is how to form runes... I must remember that I need <color=yellow>both halves</color>, and it needs to <color=yellow>match the rune</color> in the spellbook!
+--
+[name=rune_tutorial_complete, top_layout]Yes! That's it!
+--
+[no_next,top_layout]I must keep an eye on the time and complete the rest - only minutes remain.
+
+<link="start_game"><u>Start</u></link>
+--
+[name=game_over, no_next, top_layout]FIE - DOOM BEFALLS OUR SECT.
+OUR FATES ARE IN HIS GRIEVOUS HANDS NOW.
+
+<link="restart_game"><u>Try Again</u></link>
+--
+[name=l1_win, close_eyes, top_layout]Ah, respite. Until tomorrow night then, my Dark Lord.
+--
+...The following night...
+--
+[name=l2_intro, open_eyes]The antepenultimate spell awaits.
+The incantations will be longer tonight.
+--
+[top_layout]What's more, my bloodsworn seem to have absconded and so I must complete our Dark Lord's task alone.
+--
+[name=lighter_tutorial, no_next, top_layout]Damn these candles that keep blowing out;
+I must <color=yellow>click</color> this reigniter and keep the darkness hungry.
+--
+[name=lighter_tutorial_complete, no_next, top_layout]Let it be so... Ah, but midnight draws closer once again...
+
+<link="start_game"><u>Start</u></link>
+--
+[name=l2_win, close_eyes, top_layout]Ahh... I can feel His satisfaction.
+--
+...The following night...
+--
+[name=l3_intro, open_eyes]Our Lord's return will usher in an age of divine music! All will hear the Bells of Recrudescence, and shed inky tears as alms to the Abyss.
+--
+[name=bells_tutorial,no_next,top_layout]Tonight, these preliminary bells must ring. When Our Lord indicates, I must <color=yellow>touch the numbered keys</color> of each bell exactly once, <color=yellow>in ascending order</color> to satiate His whims. Hark!
+--
+[name=bells_tutorial_complete, no_next,top_layout]Just so. Take care my dark pilgrim, for unrung bells anger Our Lord, who will start to <color=yellow>eat time itself</color> - bad news for summoners.
+
+<link="start_game"><u>Start</u></link>
+--
+[name=l3_win, close_eyes,top_layout]Another triumphant communion.
+--
+...The following night...
+--
+Our final spell awaits.
+--
+[name=l4_intro, open_eyes]Our Dark Lord is now caressing the veil betwixt astral planes, and is close enough that the miracle of His baleful influence is perceivable in our world.
+--
+[no_next,top_layout]All is prepared for the final rites - His minions are nearby, so wicked mischief is likely - be on your guard.
+
+<link="start_game"><u>Start</u></link>
+--
+[name=l4_win,top_layout]What glorious benediction! The hour of awakening is nigh! Let all that look upon His material flesh be blinded by calamitous radiance!
+--
+[name=kitten_spawn]...Um
+--
+[name=kitten_hungry]My Lord, you look very.... Kawaii today...
+Is this your.... usual form?
+--
+[name=kitten_angry]Oh no, totally fine! I just had this whole vibe going.... you know what, it's fine. We can roll with it.
+--
+[name=kitten_pounce]So... Can I offer you some breakfast? We have maple pancakes or
+--
+[name=kitten_speaks,no_next]Mrrrrow, thanks for playing <3
