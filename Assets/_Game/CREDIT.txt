@@ -1,17 +1,23 @@
 Credit
 --------
 
-seansleblanc for the WebGL template:
+Thank you to seansleblanc for the WebGL template:
 https://seansleblanc.itch.io/better-minimal-webgl-template
 
-ninjikin for the Antiquity Print font:
+Thank you to ninjikin for the Antiquity Print font:
 https://ninjikin.itch.io/font-antiquity-script
 
-Epsilon_Delta on Unity Formums for this helpful TextMeshPro hyperlink script:
+Thank you to Epsilon_Delta on Unity Formums for this helpful TextMeshPro hyperlink script:
 https://forum.unity.com/threads/textmeshpro-hyperlinks.1091296/
 
-Vladar for Catholicon font:
+Thank you to Vladar for Catholicon font:
 https://vladar.itch.io/catholicon
 
-unfilledflag for Nicer Nightie font:
+Thank you to unfilledflag for Nice and Nicer Nightie fonts:
 https://unfilledflag.itch.io/nicer-nightie
+
+Thank you to mounirtohami for the MinimalPixel Font v2
+https://mounirtohami.itch.io/minimalpixel-font
+
+Thank you to kgpaints for the too Much Ink font. As you can see I did a lot of font experimentation, but yours really hit the balance between readability and vibes!
+https://kgpaints.itch.io/too-much-ink
